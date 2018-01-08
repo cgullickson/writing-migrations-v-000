@@ -1,4 +1,6 @@
 class AddColumns < ActiveRecord::Migration
   def change
-    add_column :grade
-    add_column :birthdate
+    add_column :grade, :integer
+    add_column :birthdate, :string
+  end
+end
