@@ -1,1 +1,1 @@
-change_column :students, :birthdate, :datetime
+def change_column :students, :birthdate, :datetime
